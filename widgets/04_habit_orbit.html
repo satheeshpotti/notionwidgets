@@ -1,1 +1,193 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='stylesheet' href='../assets/theme.css'><style>.dots{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.dot{aspect-ratio:1;border-radius:50%;background:rgba(157,183,242,.22);border:1px solid rgba(116,221,231,.45)}.dot.done{background:linear-gradient(135deg,var(--mint),var(--aqua))}</style></head><body><div class='widget'><div class='content'><div class='row'><div><div class='kicker'>Habit Orbit</div><div class='title'>Consistency</div></div><div class='pill'>21/28</div></div><div class='dots'><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span class='dot '></span><span class='dot '></span><span class='dot '></span><span class='dot '></span><span class='dot '></span><span class='dot '></span><span class='dot '></span></div><div style='height:12px'></div><div class='bar'><div class='fill' style='width:75%'></div></div></div></div></body></html>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Habit Orbit</title>
+    <style>
+        :root {
+            --card: #fbf8f3;
+            --ink: #2f2a25;
+            --muted: #7f766f;
+            --line: #e8ded4;
+            --brown: #b98c72;
+            --mint: #9ed8c3;
+            --aqua: #74dde7
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: transparent;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+            color: var(--ink)
+        }
+
+        .widget {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff, #fbf8f3);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            box-shadow: 0 14px 40px rgba(80, 64, 48, .08);
+            overflow: hidden
+        }
+
+        .content {
+            padding: 22px
+        }
+
+        .kicker {
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--brown);
+            margin-bottom: 8px
+        }
+
+        .title {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 30px;
+            line-height: 1.05;
+            color: var(--ink);
+            margin-bottom: 12px
+        }
+
+        .muted {
+            color: var(--muted);
+            font-size: 13px;
+            line-height: 1.45
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 14px
+        }
+
+        .btn,
+        .node {
+            display: block;
+            text-decoration: none;
+            color: var(--ink);
+            background: rgba(255, 255, 255, .68);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 12px 13px;
+            font-size: 13px;
+            line-height: 1.2;
+            transition: .18s ease;
+            cursor: pointer
+        }
+
+        .btn:hover,
+        .node:hover,
+        .clickable-widget:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 22px rgba(80, 64, 48, .10);
+            border-color: #d4b39f;
+            background: #fff
+        }
+
+        .pill {
+            display: inline-flex;
+            border-radius: 999px;
+            padding: 7px 11px;
+            background: #f3e6dc;
+            border: 1px solid #e6d2c4;
+            color: #7b5b4a;
+            font-size: 12px;
+            font-weight: 700
+        }
+
+        .bar {
+            height: 10px;
+            background: #efe7df;
+            border-radius: 999px;
+            overflow: hidden;
+            border: 1px solid #e1d4c8
+        }
+
+        .fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--mint), var(--aqua));
+            border-radius: 999px
+        }
+
+        .clickable-widget {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            height: 100%
+        }
+
+        .center {
+            text-align: center
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px
+        }
+
+        .dots {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 7px
+        }
+
+        .dot {
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background: rgba(157, 183, 242, .22);
+            border: 1px solid rgba(116, 221, 231, .45)
+        }
+
+        .dot.done {
+            background: linear-gradient(135deg, var(--mint), var(--aqua))
+        }
+    </style>
+</head>
+
+<body><!-- Replace each NOTION_... placeholder with your copied Notion page/database-view link. -->
+    <a class="clickable-widget" href="https://www.notion.so/d63707a2913e45d58dbce20b38e72415?v=353160e7ca118041aeb6000c4159244d" target="_blank"
+        rel="noopener noreferrer">
+        <div class="widget">
+            <div class="content">
+                <div class="row">
+                    <div>
+                        <div class="kicker">Habit Orbit</div>
+                        <div class="title">Consistency</div>
+                    </div>
+                    <div class="pill">21/28</div>
+                </div>
+                <div class="dots"><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot done'></span><span class='dot done'></span><span
+                        class='dot done'></span><span class='dot'></span><span class='dot'></span><span
+                        class='dot'></span><span class='dot'></span><span class='dot'></span><span
+                        class='dot'></span><span class='dot'></span></div>
+                <div style="height:12px"></div>
+                <div class="bar">
+                    <div class="fill" style="width:75%"></div>
+                </div>
+            </div>
+        </div>
+    </a>
+</body>
+
+</html>
