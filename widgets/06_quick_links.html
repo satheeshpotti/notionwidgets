@@ -1,1 +1,161 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='stylesheet' href='../assets/theme.css'></head><body><div class='widget'><div class='content'><div class='kicker'>Launch Pad</div><div class='title'>Quick Links</div><div class='grid'><a class='btn' href='#'>＋ New Daily Plan</a><a class='btn' href='#'>＋ Capture Note</a><a class='btn' href='#'>＋ Add Project</a><a class='btn' href='#'>＋ Review Goals</a></div></div></div></body></html>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quick Links</title>
+    <style>
+        :root {
+            --card: #fbf8f3;
+            --ink: #2f2a25;
+            --muted: #7f766f;
+            --line: #e8ded4;
+            --brown: #b98c72;
+            --mint: #9ed8c3;
+            --aqua: #74dde7
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: transparent;
+            font-family: Inter, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+            color: var(--ink)
+        }
+
+        .widget {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff, #fbf8f3);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            box-shadow: 0 14px 40px rgba(80, 64, 48, .08);
+            overflow: hidden
+        }
+
+        .content {
+            padding: 22px
+        }
+
+        .kicker {
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--brown);
+            margin-bottom: 8px
+        }
+
+        .title {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 30px;
+            line-height: 1.05;
+            color: var(--ink);
+            margin-bottom: 12px
+        }
+
+        .muted {
+            color: var(--muted);
+            font-size: 13px;
+            line-height: 1.45
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 14px
+        }
+
+        .btn,
+        .node {
+            display: block;
+            text-decoration: none;
+            color: var(--ink);
+            background: rgba(255, 255, 255, .68);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 12px 13px;
+            font-size: 13px;
+            line-height: 1.2;
+            transition: .18s ease;
+            cursor: pointer
+        }
+
+        .btn:hover,
+        .node:hover,
+        .clickable-widget:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 22px rgba(80, 64, 48, .10);
+            border-color: #d4b39f;
+            background: #fff
+        }
+
+        .pill {
+            display: inline-flex;
+            border-radius: 999px;
+            padding: 7px 11px;
+            background: #f3e6dc;
+            border: 1px solid #e6d2c4;
+            color: #7b5b4a;
+            font-size: 12px;
+            font-weight: 700
+        }
+
+        .bar {
+            height: 10px;
+            background: #efe7df;
+            border-radius: 999px;
+            overflow: hidden;
+            border: 1px solid #e1d4c8
+        }
+
+        .fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--mint), var(--aqua));
+            border-radius: 999px
+        }
+
+        .clickable-widget {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            height: 100%
+        }
+
+        .center {
+            text-align: center
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px
+        }
+    </style>
+</head>
+
+<body><!-- Replace each NOTION_... placeholder with your copied Notion page/database-view link. -->
+    <div class="widget">
+        <div class="content">
+            <div class="kicker">Launch Pad</div>
+            <div class="title">Quick Links</div>
+            <div class="grid">
+                    <a class="btn" href="https://www.notion.so/ddf3492c8baa4536bc891613db79885f?v=353160e7ca118076bd58000c938bf4a0" target="_blank" rel="noopener noreferrer">＋ New Daily Plan</a>
+                    <a class="btn" href="NOTION_NOTES_INBOX_OR_NEW_NOTE_TEMPLATE_URL" target="_blank" rel="noopener noreferrer">＋ Capture Note</a>
+                    <a class="btn" href="https://www.notion.so/a97dc10523cc47fa9dde3650483c8978?v=353160e7ca1180d5aa9b000cfa31227f" target="_blank" rel="noopener noreferrer">＋ Add Project</a>
+                    <a class="btn" href="https://www.notion.so/60c7048235264ff98d6cf252b1e9ddb4?v=353160e7ca1180ed9ac0000c74f103f8" target="_blank" rel="noopener noreferrer">＋ Review Goals</a>
+            </div>
+            <p class="muted">Tip: link these to Notion views or pages that contain Notion buttons/templates.</p>
+        </div>
+    </div>
+</body>
+
+</html>
