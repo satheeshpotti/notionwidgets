@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="760" viewBox="0 0 1800 760">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#BDF4E8"/><stop offset="0.45" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DAD7FF"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#2A4B6E" flood-opacity=".16"/></filter>
+</defs>
+<rect width="1800" height="760" fill="transparent"/>
+<rect x="44" y="48" width="1712" height="664" rx="72" fill="url(#bg)" stroke="#CBE6F8" stroke-width="4" filter="url(#s)"/>
+<circle cx="180" cy="150" r="12" fill="#DDBA52"/><circle cx="1600" cy="610" r="12" fill="#DDBA52"/>
+<path d="M720 130h650" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".88"/>
+<text x="120" y="185" font-family="Arial" font-size="34" font-weight="800" fill="#5E7894" letter-spacing="6">ALL-IN-ONE LIFE PLANNER 2026</text>
+<text x="120" y="255" font-family="Arial" font-size="76" font-weight="900" fill="#081423">Command Center</text>
+</svg>
