@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>All-in-One Life Planner 2026 — Command Center</title>
+<style>
+:root {
+  --mint:#BDF4E8; --aqua:#79DDE6; --sky:#9DBCF4; --lavender:#DAD7FF;
+  --deep:#081423; --ink:#102033; --muted:#5E7894; --gold:#DDBA52;
+  --soft:#F7FCFF; --line:#CBE6F8; --white:#FFFFFF;
+  --shadow: 0 22px 55px rgba(42, 75, 110, .16);
+}
+* { box-sizing: border-box; }
+body { margin:0; background:transparent; color:var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+.command-center { width:100%; padding: 14px; }
+.shell { position:relative; overflow:hidden; border-radius:34px; padding:24px; background:linear-gradient(120deg, rgba(189,244,232,.82), rgba(255,255,255,.94) 43%, rgba(218,215,255,.82)); border:1px solid rgba(157,188,244,.5); box-shadow:var(--shadow); }
+.shell:before { content:""; position:absolute; inset:-80px; background:radial-gradient(circle at 7% 12%, rgba(121,221,230,.42), transparent 25%), radial-gradient(circle at 92% 8%, rgba(218,215,255,.6), transparent 24%), radial-gradient(circle at 88% 84%, rgba(121,221,230,.28), transparent 23%), radial-gradient(circle at 18% 82%, rgba(221,186,82,.18), transparent 18%); pointer-events:none; }
+.shell:after { content:""; position:absolute; left:34%; right:18%; top:54px; height:6px; border-radius:999px; background:linear-gradient(90deg, rgba(255,255,255,.9), rgba(121,221,230,.72), rgba(157,188,244,.76), rgba(255,255,255,.7)); pointer-events:none; }
+.header, .grid, .footer { position:relative; z-index:1; }
+.header { display:flex; align-items:flex-end; justify-content:space-between; gap:18px; margin-bottom:18px; }
+.kicker { font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:900; }
+h1 { margin:2px 0 0; font-size:32px; line-height:1.03; letter-spacing:-.045em; color:var(--deep); }
+.subtitle { margin:0; max-width:560px; color:var(--muted); font-size:14px; font-weight:650; }
+.sparkles { min-width:120px; display:flex; justify-content:flex-end; gap:10px; align-items:center; }
+.dot { width:10px; height:10px; border-radius:50%; background:var(--gold); box-shadow:0 0 18px rgba(221,186,82,.55); }
+.line { width:78px; height:5px; border-radius:999px; background:linear-gradient(90deg,var(--aqua),var(--sky),var(--lavender)); opacity:.84; }
+.grid { display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap:14px; }
+.cmd-btn { position:relative; isolation:isolate; min-height:128px; display:flex; flex-direction:column; justify-content:space-between; gap:18px; text-decoration:none; color:var(--ink); padding:18px; border-radius:24px; background:rgba(255,255,255,.66); border:1px solid rgba(16,32,51,.11); box-shadow:0 10px 26px rgba(42,75,110,.08); overflow:hidden; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.cmd-btn:before { content:""; position:absolute; z-index:-1; inset:-50px; background:radial-gradient(circle at 18% 8%, rgba(121,221,230,.35), transparent 27%), radial-gradient(circle at 92% 86%, rgba(218,215,255,.42), transparent 29%); opacity:.95; }
+.cmd-btn.primary { background:linear-gradient(135deg, rgba(255,255,255,.78), rgba(189,244,232,.55), rgba(218,215,255,.58)); border-color:rgba(121,221,230,.72); }
+.cmd-btn:hover { transform:translateY(-3px); box-shadow:0 18px 36px rgba(42,75,110,.16); border-color:rgba(121,221,230,.8); }
+.orb { width:52px; height:52px; border-radius:18px; display:grid; place-items:center; background:linear-gradient(135deg, rgba(189,244,232,.9), rgba(157,188,244,.68)); border:1px solid rgba(255,255,255,.82); box-shadow: inset 0 1px 0 rgba(255,255,255,.95); }
+.orb span { font-size:25px; font-weight:900; line-height:1; color:var(--deep); }
+.txt strong { display:block; font-size:19px; letter-spacing:-.025em; color:var(--deep); }
+.txt small { display:block; margin-top:4px; color:var(--muted); font-size:12px; font-weight:780; letter-spacing:.04em; text-transform:uppercase; line-height:1.25; }
+.badge { position:absolute; top:16px; right:16px; padding:6px 9px; border-radius:999px; background:rgba(255,255,255,.72); border:1px solid rgba(121,221,230,.55); font-size:10px; font-weight:950; letter-spacing:.12em; color:var(--muted); }
+.footer { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:16px; color:var(--muted); font-size:12px; font-weight:700; }
+.footer .mini-line { flex:1; height:1px; background:linear-gradient(90deg, transparent, rgba(121,221,230,.75), rgba(157,188,244,.75), transparent); }
+@media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .shell:after { display:none; } .header { align-items:flex-start; flex-direction:column; } .sparkles { justify-content:flex-start; } }
+@media (max-width: 520px) { .command-center { padding:8px; } .shell { padding:18px; border-radius:28px; } .grid { grid-template-columns: 1fr; } h1 { font-size:27px; } }
+</style>
+</head>
+<body>
+<section class="command-center" aria-label="All-in-One Life Planner 2026 Command Center">
+  <div class="shell">
+    <div class="header">
+      <div>
+        <div class="kicker">All-in-One Life Planner 2026</div>
+        <h1>Command Center</h1>
+      </div>
+      <p class="subtitle">Daily planning, execution, routines, knowledge and finance.</p>
+      <div class="sparkles" aria-hidden="true"><span class="dot"></span><span class="line"></span><span class="dot"></span></div>
+    </div>
+    <div class="grid">
+      
+      <a class="cmd-btn primary" href="PASTE_TODAY_DASHBOARD_URL_HERE" target="_blank" rel="noopener" data-view="today">
+        <span class="orb"><span>☀</span></span>
+        <span class="txt"><strong>Today</strong><small>Daily plan + priorities</small></span>
+        <span class="badge">PRIMARY</span>
+      </a>
+      <a class="cmd-btn primary" href="PASTE_WEEKLY_PLANNER_URL_HERE" target="_blank" rel="noopener" data-view="week">
+        <span class="orb"><span>▦</span></span>
+        <span class="txt"><strong>Week</strong><small>Weekly agenda + review</small></span>
+        <span class="badge">PRIMARY</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_TASKS_DATABASE_URL_HERE" target="_blank" rel="noopener" data-view="tasks">
+        <span class="orb"><span>✓</span></span>
+        <span class="txt"><strong>Tasks</strong><small>Next actions database</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_PROJECTS_DATABASE_URL_HERE" target="_blank" rel="noopener" data-view="projects">
+        <span class="orb"><span>▣</span></span>
+        <span class="txt"><strong>Projects</strong><small>Active projects</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_GOALS_DATABASE_URL_HERE" target="_blank" rel="noopener" data-view="goals">
+        <span class="orb"><span>◎</span></span>
+        <span class="txt"><strong>Goals</strong><small>2026 vision + milestones</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_HABITS_DATABASE_URL_HERE" target="_blank" rel="noopener" data-view="habits">
+        <span class="orb"><span>◌</span></span>
+        <span class="txt"><strong>Habits</strong><small>Routines + wellness</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_SECOND_BRAIN_URL_HERE" target="_blank" rel="noopener" data-view="notes">
+        <span class="orb"><span>✦</span></span>
+        <span class="txt"><strong>Second Brain</strong><small>Notes + ideas + resources</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+      <a class="cmd-btn core" href="PASTE_FINANCE_DATABASE_URL_HERE" target="_blank" rel="noopener" data-view="finance">
+        <span class="orb"><span>₹</span></span>
+        <span class="txt"><strong>Finance</strong><small>Money dashboard</small></span>
+        <span class="badge">VIEW</span>
+      </a>
+    </div>
+    <div class="footer"><span>Life OS Navigation</span><span class="mini-line"></span><span>Planner + Second Brain</span></div>
+  </div>
+</section>
+</body>
+</html>
