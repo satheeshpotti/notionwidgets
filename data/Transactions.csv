@@ -1,0 +1,10 @@
+Date,Name,Type,Category,Amount
+2026-01-01,Salary,Income,Income,5000
+2026-01-02,Rent,Expense,Housing,2000
+2026-01-05,Food,Expense,Food,400
+2026-02-01,Salary,Income,Income,5000
+2026-02-04,Rent,Expense,Housing,2000
+2026-02-06,Shopping,Expense,Lifestyle,600
+2026-03-01,Salary,Income,Income,5000
+2026-03-05,Travel,Expense,Leisure,800
+2026-03-10,ETF,Investment,Investments,1000
