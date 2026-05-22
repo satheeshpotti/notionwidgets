@@ -1,0 +1,6 @@
+bill,amount,due_date,status
+Rent,2450.0,2026-06-02,scheduled
+Student Loan,420.0,2026-06-05,scheduled
+Geico,118.0,2026-06-12,scheduled
+Electric Utility,160.0,2026-06-18,estimated
+Internet,79.99,2026-06-22,scheduled

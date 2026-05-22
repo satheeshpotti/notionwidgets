@@ -1,0 +1,600 @@
+transaction_id,date,merchant,category,group,amount,account,type,status,notes
+TX00001,2025-01-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00002,2025-01-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00003,2025-01-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00004,2025-01-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00005,2025-01-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00006,2025-01-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00007,2025-01-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00008,2025-01-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00009,2025-01-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00010,2025-01-18,Electric Utility,Utilities,Housing,-121.0,Chase Total Checking,expense,cleared,recurring
+TX00011,2025-01-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00012,2025-01-23,Costco,Groceries,Food,-75.08,Amex Blue Cash,expense,cleared,
+TX00013,2025-01-27,Trader Joes,Groceries,Food,-144.57,Amex Blue Cash,expense,cleared,
+TX00014,2025-01-03,Costco,Groceries,Food,-71.69,Amex Blue Cash,expense,cleared,
+TX00015,2025-01-22,Trader Joes,Groceries,Food,-56.85,Amex Blue Cash,expense,cleared,
+TX00016,2025-01-13,Safeway,Groceries,Food,-173.4,Amex Blue Cash,expense,cleared,
+TX00017,2025-01-09,Whole Foods,Groceries,Food,-119.69,Amex Blue Cash,expense,cleared,
+TX00018,2025-01-24,Kroger,Groceries,Food,-74.84,Amex Blue Cash,expense,cleared,
+TX00019,2025-01-07,Safeway,Groceries,Food,-135.59,Amex Blue Cash,expense,cleared,
+TX00020,2025-01-26,Whole Foods,Groceries,Food,-149.39,Amex Blue Cash,expense,cleared,
+TX00021,2025-01-19,Chipotle,Dining Out,Food,-21.5,Chase Sapphire,expense,cleared,
+TX00022,2025-01-27,DoorDash,Dining Out,Food,-22.33,Chase Sapphire,expense,cleared,
+TX00023,2025-01-15,Starbucks,Dining Out,Food,-73.03,Chase Sapphire,expense,cleared,
+TX00024,2025-01-02,DoorDash,Dining Out,Food,-69.48,Chase Sapphire,expense,cleared,
+TX00025,2025-01-12,Uber Eats,Dining Out,Food,-15.47,Chase Sapphire,expense,cleared,
+TX00026,2025-01-11,DoorDash,Dining Out,Food,-20.5,Chase Sapphire,expense,cleared,
+TX00027,2025-01-21,Local Restaurant,Dining Out,Food,-23.72,Chase Sapphire,expense,cleared,
+TX00028,2025-01-15,Chevron,Fuel,Transport,-72.87,Chase Sapphire,expense,cleared,
+TX00029,2025-01-24,Shell,Fuel,Transport,-48.02,Chase Sapphire,expense,cleared,
+TX00030,2025-01-21,Chevron,Fuel,Transport,-62.28,Chase Sapphire,expense,cleared,
+TX00031,2025-01-01,Shell,Fuel,Transport,-48.13,Chase Sapphire,expense,cleared,
+TX00032,2025-01-19,Best Buy,Shopping,Lifestyle,-62.21,Chase Sapphire,expense,cleared,
+TX00033,2025-01-26,Target,Shopping,Lifestyle,-36.59,Chase Sapphire,expense,cleared,
+TX00034,2025-01-16,Target,Shopping,Lifestyle,-198.81,Chase Sapphire,expense,cleared,
+TX00035,2025-01-28,Target,Shopping,Lifestyle,-91.39,Chase Sapphire,expense,cleared,
+TX00036,2025-02-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00037,2025-02-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00038,2025-02-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00039,2025-02-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00040,2025-02-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00041,2025-02-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00042,2025-02-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00043,2025-02-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00044,2025-02-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00045,2025-02-18,Electric Utility,Utilities,Housing,-108.0,Chase Total Checking,expense,cleared,recurring
+TX00046,2025-02-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00047,2025-02-03,Kroger,Groceries,Food,-88.99,Amex Blue Cash,expense,cleared,
+TX00048,2025-02-26,Costco,Groceries,Food,-147.41,Amex Blue Cash,expense,cleared,
+TX00049,2025-02-25,Kroger,Groceries,Food,-54.74,Amex Blue Cash,expense,cleared,
+TX00050,2025-02-21,Safeway,Groceries,Food,-99.26,Amex Blue Cash,expense,cleared,
+TX00051,2025-02-11,Kroger,Groceries,Food,-110.62,Amex Blue Cash,expense,cleared,
+TX00052,2025-02-05,Trader Joes,Groceries,Food,-69.13,Amex Blue Cash,expense,cleared,
+TX00053,2025-02-13,Safeway,Groceries,Food,-176.75,Amex Blue Cash,expense,cleared,
+TX00054,2025-02-02,Safeway,Groceries,Food,-66.53,Amex Blue Cash,expense,cleared,
+TX00055,2025-02-15,Trader Joes,Groceries,Food,-49.23,Amex Blue Cash,expense,cleared,
+TX00056,2025-02-26,DoorDash,Dining Out,Food,-12.74,Chase Sapphire,expense,cleared,
+TX00057,2025-02-11,Chipotle,Dining Out,Food,-18.26,Chase Sapphire,expense,cleared,
+TX00058,2025-02-03,Uber Eats,Dining Out,Food,-10.24,Chase Sapphire,expense,cleared,
+TX00059,2025-02-10,Uber Eats,Dining Out,Food,-51.58,Chase Sapphire,expense,cleared,
+TX00060,2025-02-24,Uber Eats,Dining Out,Food,-65.47,Chase Sapphire,expense,cleared,
+TX00061,2025-02-13,Starbucks,Dining Out,Food,-63.11,Chase Sapphire,expense,cleared,
+TX00062,2025-02-04,DoorDash,Dining Out,Food,-36.64,Chase Sapphire,expense,cleared,
+TX00063,2025-02-13,Exxon,Fuel,Transport,-68.65,Chase Sapphire,expense,cleared,
+TX00064,2025-02-21,Exxon,Fuel,Transport,-65.45,Chase Sapphire,expense,cleared,
+TX00065,2025-02-11,Shell,Fuel,Transport,-81.04,Chase Sapphire,expense,cleared,
+TX00066,2025-02-04,Chevron,Fuel,Transport,-44.62,Chase Sapphire,expense,cleared,
+TX00067,2025-02-14,Best Buy,Shopping,Lifestyle,-211.76,Chase Sapphire,expense,cleared,
+TX00068,2025-02-20,Amazon,Shopping,Lifestyle,-41.57,Chase Sapphire,expense,cleared,
+TX00069,2025-02-04,Best Buy,Shopping,Lifestyle,-163.89,Chase Sapphire,expense,cleared,
+TX00070,2025-02-18,Target,Shopping,Lifestyle,-145.69,Chase Sapphire,expense,cleared,
+TX00071,2025-03-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00072,2025-03-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00073,2025-03-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00074,2025-03-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00075,2025-03-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00076,2025-03-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00077,2025-03-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00078,2025-03-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00079,2025-03-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00080,2025-03-18,Electric Utility,Utilities,Housing,-157.0,Chase Total Checking,expense,cleared,recurring
+TX00081,2025-03-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00082,2025-03-13,Kroger,Groceries,Food,-122.08,Amex Blue Cash,expense,cleared,
+TX00083,2025-03-18,Trader Joes,Groceries,Food,-159.29,Amex Blue Cash,expense,cleared,
+TX00084,2025-03-21,Kroger,Groceries,Food,-133.2,Amex Blue Cash,expense,cleared,
+TX00085,2025-03-20,Whole Foods,Groceries,Food,-67.16,Amex Blue Cash,expense,cleared,
+TX00086,2025-03-26,Kroger,Groceries,Food,-143.87,Amex Blue Cash,expense,cleared,
+TX00087,2025-03-27,Whole Foods,Groceries,Food,-123.36,Amex Blue Cash,expense,cleared,
+TX00088,2025-03-04,Kroger,Groceries,Food,-159.22,Amex Blue Cash,expense,cleared,
+TX00089,2025-03-28,Whole Foods,Groceries,Food,-137.94,Amex Blue Cash,expense,cleared,
+TX00090,2025-03-25,Costco,Groceries,Food,-46.18,Amex Blue Cash,expense,cleared,
+TX00091,2025-03-24,Uber Eats,Dining Out,Food,-22.98,Chase Sapphire,expense,cleared,
+TX00092,2025-03-28,Starbucks,Dining Out,Food,-46.91,Chase Sapphire,expense,cleared,
+TX00093,2025-03-02,Local Restaurant,Dining Out,Food,-67.77,Chase Sapphire,expense,cleared,
+TX00094,2025-03-19,Chipotle,Dining Out,Food,-24.9,Chase Sapphire,expense,cleared,
+TX00095,2025-03-10,Starbucks,Dining Out,Food,-74.49,Chase Sapphire,expense,cleared,
+TX00096,2025-03-13,Chipotle,Dining Out,Food,-34.75,Chase Sapphire,expense,cleared,
+TX00097,2025-03-26,Uber Eats,Dining Out,Food,-35.46,Chase Sapphire,expense,cleared,
+TX00098,2025-03-09,Shell,Fuel,Transport,-64.27,Chase Sapphire,expense,cleared,
+TX00099,2025-03-17,Shell,Fuel,Transport,-53.38,Chase Sapphire,expense,cleared,
+TX00100,2025-03-02,Exxon,Fuel,Transport,-81.57,Chase Sapphire,expense,cleared,
+TX00101,2025-03-23,Shell,Fuel,Transport,-62.87,Chase Sapphire,expense,cleared,
+TX00102,2025-03-14,Best Buy,Shopping,Lifestyle,-124.07,Chase Sapphire,expense,cleared,
+TX00103,2025-03-13,Target,Shopping,Lifestyle,-211.5,Chase Sapphire,expense,cleared,
+TX00104,2025-03-15,Walmart,Shopping,Lifestyle,-89.88,Chase Sapphire,expense,cleared,
+TX00105,2025-03-28,Amazon,Shopping,Lifestyle,-50.18,Chase Sapphire,expense,cleared,
+TX00106,2025-04-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00107,2025-04-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00108,2025-04-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00109,2025-04-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00110,2025-04-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00111,2025-04-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00112,2025-04-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00113,2025-04-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00114,2025-04-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00115,2025-04-18,Electric Utility,Utilities,Housing,-141.0,Chase Total Checking,expense,cleared,recurring
+TX00116,2025-04-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00117,2025-04-07,Whole Foods,Groceries,Food,-102.96,Amex Blue Cash,expense,cleared,
+TX00118,2025-04-04,Trader Joes,Groceries,Food,-165.09,Amex Blue Cash,expense,cleared,
+TX00119,2025-04-12,Costco,Groceries,Food,-132.63,Amex Blue Cash,expense,cleared,
+TX00120,2025-04-18,Kroger,Groceries,Food,-130.84,Amex Blue Cash,expense,cleared,
+TX00121,2025-04-26,Costco,Groceries,Food,-52.06,Amex Blue Cash,expense,cleared,
+TX00122,2025-04-16,Trader Joes,Groceries,Food,-108.13,Amex Blue Cash,expense,cleared,
+TX00123,2025-04-09,Trader Joes,Groceries,Food,-102.87,Amex Blue Cash,expense,cleared,
+TX00124,2025-04-19,Safeway,Groceries,Food,-132.52,Amex Blue Cash,expense,cleared,
+TX00125,2025-04-10,Whole Foods,Groceries,Food,-153.04,Amex Blue Cash,expense,cleared,
+TX00126,2025-04-10,Uber Eats,Dining Out,Food,-49.83,Chase Sapphire,expense,cleared,
+TX00127,2025-04-15,Starbucks,Dining Out,Food,-59.6,Chase Sapphire,expense,cleared,
+TX00128,2025-04-09,Starbucks,Dining Out,Food,-46.37,Chase Sapphire,expense,cleared,
+TX00129,2025-04-01,Uber Eats,Dining Out,Food,-63.62,Chase Sapphire,expense,cleared,
+TX00130,2025-04-14,Chipotle,Dining Out,Food,-48.81,Chase Sapphire,expense,cleared,
+TX00131,2025-04-21,Uber Eats,Dining Out,Food,-57.59,Chase Sapphire,expense,cleared,
+TX00132,2025-04-11,Starbucks,Dining Out,Food,-72.68,Chase Sapphire,expense,cleared,
+TX00133,2025-04-14,Exxon,Fuel,Transport,-73.44,Chase Sapphire,expense,cleared,
+TX00134,2025-04-08,Chevron,Fuel,Transport,-51.95,Chase Sapphire,expense,cleared,
+TX00135,2025-04-04,Exxon,Fuel,Transport,-41.54,Chase Sapphire,expense,cleared,
+TX00136,2025-04-05,Shell,Fuel,Transport,-50.18,Chase Sapphire,expense,cleared,
+TX00137,2025-04-19,Walmart,Shopping,Lifestyle,-151.44,Chase Sapphire,expense,cleared,
+TX00138,2025-04-07,Walmart,Shopping,Lifestyle,-114.16,Chase Sapphire,expense,cleared,
+TX00139,2025-04-09,Target,Shopping,Lifestyle,-30.65,Chase Sapphire,expense,cleared,
+TX00140,2025-04-23,Best Buy,Shopping,Lifestyle,-213.42,Chase Sapphire,expense,cleared,
+TX00141,2025-05-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00142,2025-05-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00143,2025-05-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00144,2025-05-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00145,2025-05-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00146,2025-05-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00147,2025-05-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00148,2025-05-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00149,2025-05-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00150,2025-05-18,Electric Utility,Utilities,Housing,-168.0,Chase Total Checking,expense,cleared,recurring
+TX00151,2025-05-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00152,2025-05-27,Costco,Groceries,Food,-83.55,Amex Blue Cash,expense,cleared,
+TX00153,2025-05-07,Whole Foods,Groceries,Food,-134.87,Amex Blue Cash,expense,cleared,
+TX00154,2025-05-04,Kroger,Groceries,Food,-140.24,Amex Blue Cash,expense,cleared,
+TX00155,2025-05-02,Trader Joes,Groceries,Food,-127.1,Amex Blue Cash,expense,cleared,
+TX00156,2025-05-14,Safeway,Groceries,Food,-104.31,Amex Blue Cash,expense,cleared,
+TX00157,2025-05-10,Kroger,Groceries,Food,-116.52,Amex Blue Cash,expense,cleared,
+TX00158,2025-05-03,Costco,Groceries,Food,-77.56,Amex Blue Cash,expense,cleared,
+TX00159,2025-05-01,Safeway,Groceries,Food,-59.54,Amex Blue Cash,expense,cleared,
+TX00160,2025-05-28,Kroger,Groceries,Food,-126.58,Amex Blue Cash,expense,cleared,
+TX00161,2025-05-11,Starbucks,Dining Out,Food,-30.47,Chase Sapphire,expense,cleared,
+TX00162,2025-05-09,DoorDash,Dining Out,Food,-70.36,Chase Sapphire,expense,cleared,
+TX00163,2025-05-18,Chipotle,Dining Out,Food,-73.64,Chase Sapphire,expense,cleared,
+TX00164,2025-05-24,DoorDash,Dining Out,Food,-29.73,Chase Sapphire,expense,cleared,
+TX00165,2025-05-05,DoorDash,Dining Out,Food,-65.48,Chase Sapphire,expense,cleared,
+TX00166,2025-05-06,Uber Eats,Dining Out,Food,-69.58,Chase Sapphire,expense,cleared,
+TX00167,2025-05-28,DoorDash,Dining Out,Food,-51.55,Chase Sapphire,expense,cleared,
+TX00168,2025-05-13,Shell,Fuel,Transport,-62.68,Chase Sapphire,expense,cleared,
+TX00169,2025-05-08,Chevron,Fuel,Transport,-48.98,Chase Sapphire,expense,cleared,
+TX00170,2025-05-05,Chevron,Fuel,Transport,-53.46,Chase Sapphire,expense,cleared,
+TX00171,2025-05-26,Shell,Fuel,Transport,-51.8,Chase Sapphire,expense,cleared,
+TX00172,2025-05-17,Target,Shopping,Lifestyle,-127.76,Chase Sapphire,expense,cleared,
+TX00173,2025-05-27,Amazon,Shopping,Lifestyle,-164.41,Chase Sapphire,expense,cleared,
+TX00174,2025-05-08,Best Buy,Shopping,Lifestyle,-211.09,Chase Sapphire,expense,cleared,
+TX00175,2025-05-20,Amazon,Shopping,Lifestyle,-68.84,Chase Sapphire,expense,cleared,
+TX00176,2025-06-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00177,2025-06-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00178,2025-06-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00179,2025-06-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00180,2025-06-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00181,2025-06-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00182,2025-06-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00183,2025-06-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00184,2025-06-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00185,2025-06-18,Electric Utility,Utilities,Housing,-142.0,Chase Total Checking,expense,cleared,recurring
+TX00186,2025-06-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00187,2025-06-28,Costco,Groceries,Food,-112.35,Amex Blue Cash,expense,cleared,
+TX00188,2025-06-14,Whole Foods,Groceries,Food,-137.16,Amex Blue Cash,expense,cleared,
+TX00189,2025-06-07,Safeway,Groceries,Food,-128.19,Amex Blue Cash,expense,cleared,
+TX00190,2025-06-02,Safeway,Groceries,Food,-129.85,Amex Blue Cash,expense,cleared,
+TX00191,2025-06-12,Costco,Groceries,Food,-175.47,Amex Blue Cash,expense,cleared,
+TX00192,2025-06-09,Costco,Groceries,Food,-164.79,Amex Blue Cash,expense,cleared,
+TX00193,2025-06-25,Costco,Groceries,Food,-76.77,Amex Blue Cash,expense,cleared,
+TX00194,2025-06-22,Kroger,Groceries,Food,-53.77,Amex Blue Cash,expense,cleared,
+TX00195,2025-06-24,Trader Joes,Groceries,Food,-173.8,Amex Blue Cash,expense,cleared,
+TX00196,2025-06-21,Chipotle,Dining Out,Food,-54.6,Chase Sapphire,expense,cleared,
+TX00197,2025-06-25,DoorDash,Dining Out,Food,-61.76,Chase Sapphire,expense,cleared,
+TX00198,2025-06-10,DoorDash,Dining Out,Food,-9.69,Chase Sapphire,expense,cleared,
+TX00199,2025-06-03,Chipotle,Dining Out,Food,-29.63,Chase Sapphire,expense,cleared,
+TX00200,2025-06-05,Chipotle,Dining Out,Food,-17.71,Chase Sapphire,expense,cleared,
+TX00201,2025-06-23,Local Restaurant,Dining Out,Food,-17.31,Chase Sapphire,expense,cleared,
+TX00202,2025-06-18,Local Restaurant,Dining Out,Food,-32.86,Chase Sapphire,expense,cleared,
+TX00203,2025-06-28,Shell,Fuel,Transport,-63.71,Chase Sapphire,expense,cleared,
+TX00204,2025-06-27,Shell,Fuel,Transport,-54.2,Chase Sapphire,expense,cleared,
+TX00205,2025-06-07,Exxon,Fuel,Transport,-61.07,Chase Sapphire,expense,cleared,
+TX00206,2025-06-10,Exxon,Fuel,Transport,-60.82,Chase Sapphire,expense,cleared,
+TX00207,2025-06-23,Target,Shopping,Lifestyle,-58.33,Chase Sapphire,expense,cleared,
+TX00208,2025-06-24,Walmart,Shopping,Lifestyle,-167.05,Chase Sapphire,expense,cleared,
+TX00209,2025-06-21,Amazon,Shopping,Lifestyle,-91.97,Chase Sapphire,expense,cleared,
+TX00210,2025-06-27,Target,Shopping,Lifestyle,-147.87,Chase Sapphire,expense,cleared,
+TX00211,2025-07-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00212,2025-07-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00213,2025-07-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00214,2025-07-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00215,2025-07-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00216,2025-07-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00217,2025-07-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00218,2025-07-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00219,2025-07-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00220,2025-07-18,Electric Utility,Utilities,Housing,-146.0,Chase Total Checking,expense,cleared,recurring
+TX00221,2025-07-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00222,2025-07-07,Safeway,Groceries,Food,-142.16,Amex Blue Cash,expense,cleared,
+TX00223,2025-07-09,Costco,Groceries,Food,-102.77,Amex Blue Cash,expense,cleared,
+TX00224,2025-07-05,Safeway,Groceries,Food,-148.02,Amex Blue Cash,expense,cleared,
+TX00225,2025-07-06,Trader Joes,Groceries,Food,-60.49,Amex Blue Cash,expense,cleared,
+TX00226,2025-07-10,Safeway,Groceries,Food,-140.4,Amex Blue Cash,expense,cleared,
+TX00227,2025-07-13,Trader Joes,Groceries,Food,-68.1,Amex Blue Cash,expense,cleared,
+TX00228,2025-07-15,Whole Foods,Groceries,Food,-85.32,Amex Blue Cash,expense,cleared,
+TX00229,2025-07-02,Kroger,Groceries,Food,-172.76,Amex Blue Cash,expense,cleared,
+TX00230,2025-07-28,Kroger,Groceries,Food,-160.3,Amex Blue Cash,expense,cleared,
+TX00231,2025-07-28,Starbucks,Dining Out,Food,-38.15,Chase Sapphire,expense,cleared,
+TX00232,2025-07-11,Uber Eats,Dining Out,Food,-25.54,Chase Sapphire,expense,cleared,
+TX00233,2025-07-14,Local Restaurant,Dining Out,Food,-20.01,Chase Sapphire,expense,cleared,
+TX00234,2025-07-03,Starbucks,Dining Out,Food,-28.84,Chase Sapphire,expense,cleared,
+TX00235,2025-07-17,Uber Eats,Dining Out,Food,-71.23,Chase Sapphire,expense,cleared,
+TX00236,2025-07-01,Chipotle,Dining Out,Food,-8.49,Chase Sapphire,expense,cleared,
+TX00237,2025-07-07,DoorDash,Dining Out,Food,-16.56,Chase Sapphire,expense,cleared,
+TX00238,2025-07-14,Exxon,Fuel,Transport,-59.04,Chase Sapphire,expense,cleared,
+TX00239,2025-07-07,Shell,Fuel,Transport,-58.27,Chase Sapphire,expense,cleared,
+TX00240,2025-07-09,Shell,Fuel,Transport,-67.57,Chase Sapphire,expense,cleared,
+TX00241,2025-07-27,Shell,Fuel,Transport,-66.78,Chase Sapphire,expense,cleared,
+TX00242,2025-07-27,Amazon,Shopping,Lifestyle,-87.47,Chase Sapphire,expense,cleared,
+TX00243,2025-07-22,Best Buy,Shopping,Lifestyle,-121.62,Chase Sapphire,expense,cleared,
+TX00244,2025-07-11,Walmart,Shopping,Lifestyle,-206.14,Chase Sapphire,expense,cleared,
+TX00245,2025-07-08,Target,Shopping,Lifestyle,-212.25,Chase Sapphire,expense,cleared,
+TX00246,2025-07-24,Delta Airlines,Travel Fund,Goals,-780.0,Chase Sapphire,expense,cleared,planned travel
+TX00247,2025-08-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00248,2025-08-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00249,2025-08-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00250,2025-08-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00251,2025-08-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00252,2025-08-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00253,2025-08-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00254,2025-08-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00255,2025-08-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00256,2025-08-18,Electric Utility,Utilities,Housing,-162.0,Chase Total Checking,expense,cleared,recurring
+TX00257,2025-08-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00258,2025-08-15,Costco,Groceries,Food,-82.08,Amex Blue Cash,expense,cleared,
+TX00259,2025-08-09,Kroger,Groceries,Food,-95.8,Amex Blue Cash,expense,cleared,
+TX00260,2025-08-14,Kroger,Groceries,Food,-133.41,Amex Blue Cash,expense,cleared,
+TX00261,2025-08-12,Trader Joes,Groceries,Food,-130.9,Amex Blue Cash,expense,cleared,
+TX00262,2025-08-24,Safeway,Groceries,Food,-105.46,Amex Blue Cash,expense,cleared,
+TX00263,2025-08-20,Safeway,Groceries,Food,-58.44,Amex Blue Cash,expense,cleared,
+TX00264,2025-08-17,Trader Joes,Groceries,Food,-140.29,Amex Blue Cash,expense,cleared,
+TX00265,2025-08-27,Safeway,Groceries,Food,-77.23,Amex Blue Cash,expense,cleared,
+TX00266,2025-08-19,Safeway,Groceries,Food,-68.65,Amex Blue Cash,expense,cleared,
+TX00267,2025-08-18,Starbucks,Dining Out,Food,-17.88,Chase Sapphire,expense,cleared,
+TX00268,2025-08-23,DoorDash,Dining Out,Food,-48.64,Chase Sapphire,expense,cleared,
+TX00269,2025-08-07,DoorDash,Dining Out,Food,-57.9,Chase Sapphire,expense,cleared,
+TX00270,2025-08-28,DoorDash,Dining Out,Food,-13.4,Chase Sapphire,expense,cleared,
+TX00271,2025-08-20,Chipotle,Dining Out,Food,-25.39,Chase Sapphire,expense,cleared,
+TX00272,2025-08-06,Starbucks,Dining Out,Food,-63.33,Chase Sapphire,expense,cleared,
+TX00273,2025-08-27,Starbucks,Dining Out,Food,-43.79,Chase Sapphire,expense,cleared,
+TX00274,2025-08-27,Exxon,Fuel,Transport,-71.57,Chase Sapphire,expense,cleared,
+TX00275,2025-08-23,Chevron,Fuel,Transport,-60.18,Chase Sapphire,expense,cleared,
+TX00276,2025-08-11,Exxon,Fuel,Transport,-75.48,Chase Sapphire,expense,cleared,
+TX00277,2025-08-28,Exxon,Fuel,Transport,-81.74,Chase Sapphire,expense,cleared,
+TX00278,2025-08-21,Amazon,Shopping,Lifestyle,-209.62,Chase Sapphire,expense,cleared,
+TX00279,2025-08-01,Amazon,Shopping,Lifestyle,-200.12,Chase Sapphire,expense,cleared,
+TX00280,2025-08-09,Amazon,Shopping,Lifestyle,-203.07,Chase Sapphire,expense,cleared,
+TX00281,2025-08-26,Amazon,Shopping,Lifestyle,-134.36,Chase Sapphire,expense,cleared,
+TX00282,2025-09-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00283,2025-09-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00284,2025-09-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00285,2025-09-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00286,2025-09-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00287,2025-09-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00288,2025-09-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00289,2025-09-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00290,2025-09-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00291,2025-09-18,Electric Utility,Utilities,Housing,-162.0,Chase Total Checking,expense,cleared,recurring
+TX00292,2025-09-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00293,2025-09-02,Whole Foods,Groceries,Food,-142.82,Amex Blue Cash,expense,cleared,
+TX00294,2025-09-10,Trader Joes,Groceries,Food,-161.9,Amex Blue Cash,expense,cleared,
+TX00295,2025-09-06,Costco,Groceries,Food,-48.66,Amex Blue Cash,expense,cleared,
+TX00296,2025-09-14,Costco,Groceries,Food,-121.84,Amex Blue Cash,expense,cleared,
+TX00297,2025-09-16,Costco,Groceries,Food,-131.6,Amex Blue Cash,expense,cleared,
+TX00298,2025-09-27,Kroger,Groceries,Food,-68.38,Amex Blue Cash,expense,cleared,
+TX00299,2025-09-28,Costco,Groceries,Food,-70.13,Amex Blue Cash,expense,cleared,
+TX00300,2025-09-07,Costco,Groceries,Food,-68.24,Amex Blue Cash,expense,cleared,
+TX00301,2025-09-18,Kroger,Groceries,Food,-154.71,Amex Blue Cash,expense,cleared,
+TX00302,2025-09-20,Uber Eats,Dining Out,Food,-68.14,Chase Sapphire,expense,cleared,
+TX00303,2025-09-12,Local Restaurant,Dining Out,Food,-19.0,Chase Sapphire,expense,cleared,
+TX00304,2025-09-17,Chipotle,Dining Out,Food,-50.66,Chase Sapphire,expense,cleared,
+TX00305,2025-09-23,Starbucks,Dining Out,Food,-62.12,Chase Sapphire,expense,cleared,
+TX00306,2025-09-24,Uber Eats,Dining Out,Food,-10.52,Chase Sapphire,expense,cleared,
+TX00307,2025-09-10,Uber Eats,Dining Out,Food,-62.61,Chase Sapphire,expense,cleared,
+TX00308,2025-09-01,Local Restaurant,Dining Out,Food,-22.53,Chase Sapphire,expense,cleared,
+TX00309,2025-09-26,Exxon,Fuel,Transport,-45.93,Chase Sapphire,expense,cleared,
+TX00310,2025-09-02,Exxon,Fuel,Transport,-70.88,Chase Sapphire,expense,cleared,
+TX00311,2025-09-11,Chevron,Fuel,Transport,-73.96,Chase Sapphire,expense,cleared,
+TX00312,2025-09-24,Chevron,Fuel,Transport,-69.48,Chase Sapphire,expense,cleared,
+TX00313,2025-09-08,Amazon,Shopping,Lifestyle,-140.38,Chase Sapphire,expense,cleared,
+TX00314,2025-09-24,Best Buy,Shopping,Lifestyle,-150.75,Chase Sapphire,expense,cleared,
+TX00315,2025-09-03,Best Buy,Shopping,Lifestyle,-201.3,Chase Sapphire,expense,cleared,
+TX00316,2025-09-02,Amazon,Shopping,Lifestyle,-128.67,Chase Sapphire,expense,cleared,
+TX00317,2025-10-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00318,2025-10-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00319,2025-10-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00320,2025-10-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00321,2025-10-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00322,2025-10-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00323,2025-10-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00324,2025-10-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00325,2025-10-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00326,2025-10-18,Electric Utility,Utilities,Housing,-152.0,Chase Total Checking,expense,cleared,recurring
+TX00327,2025-10-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00328,2025-10-07,Kroger,Groceries,Food,-70.12,Amex Blue Cash,expense,cleared,
+TX00329,2025-10-03,Safeway,Groceries,Food,-128.16,Amex Blue Cash,expense,cleared,
+TX00330,2025-10-06,Costco,Groceries,Food,-102.21,Amex Blue Cash,expense,cleared,
+TX00331,2025-10-25,Kroger,Groceries,Food,-52.17,Amex Blue Cash,expense,cleared,
+TX00332,2025-10-12,Kroger,Groceries,Food,-166.58,Amex Blue Cash,expense,cleared,
+TX00333,2025-10-10,Safeway,Groceries,Food,-126.06,Amex Blue Cash,expense,cleared,
+TX00334,2025-10-09,Kroger,Groceries,Food,-143.78,Amex Blue Cash,expense,cleared,
+TX00335,2025-10-13,Safeway,Groceries,Food,-77.42,Amex Blue Cash,expense,cleared,
+TX00336,2025-10-24,Kroger,Groceries,Food,-146.59,Amex Blue Cash,expense,cleared,
+TX00337,2025-10-13,Starbucks,Dining Out,Food,-70.22,Chase Sapphire,expense,cleared,
+TX00338,2025-10-11,Local Restaurant,Dining Out,Food,-54.78,Chase Sapphire,expense,cleared,
+TX00339,2025-10-09,Local Restaurant,Dining Out,Food,-49.75,Chase Sapphire,expense,cleared,
+TX00340,2025-10-16,Starbucks,Dining Out,Food,-15.94,Chase Sapphire,expense,cleared,
+TX00341,2025-10-14,Uber Eats,Dining Out,Food,-9.47,Chase Sapphire,expense,cleared,
+TX00342,2025-10-21,Uber Eats,Dining Out,Food,-21.37,Chase Sapphire,expense,cleared,
+TX00343,2025-10-05,Uber Eats,Dining Out,Food,-16.7,Chase Sapphire,expense,cleared,
+TX00344,2025-10-03,Shell,Fuel,Transport,-44.41,Chase Sapphire,expense,cleared,
+TX00345,2025-10-04,Exxon,Fuel,Transport,-49.93,Chase Sapphire,expense,cleared,
+TX00346,2025-10-22,Chevron,Fuel,Transport,-67.28,Chase Sapphire,expense,cleared,
+TX00347,2025-10-16,Exxon,Fuel,Transport,-40.8,Chase Sapphire,expense,cleared,
+TX00348,2025-10-16,Best Buy,Shopping,Lifestyle,-35.9,Chase Sapphire,expense,cleared,
+TX00349,2025-10-10,Target,Shopping,Lifestyle,-120.05,Chase Sapphire,expense,cleared,
+TX00350,2025-10-01,Best Buy,Shopping,Lifestyle,-108.28,Chase Sapphire,expense,cleared,
+TX00351,2025-10-13,Target,Shopping,Lifestyle,-99.72,Chase Sapphire,expense,cleared,
+TX00352,2025-11-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00353,2025-11-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00354,2025-11-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00355,2025-11-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00356,2025-11-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00357,2025-11-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00358,2025-11-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00359,2025-11-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00360,2025-11-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00361,2025-11-18,Electric Utility,Utilities,Housing,-161.0,Chase Total Checking,expense,cleared,recurring
+TX00362,2025-11-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00363,2025-11-12,Kroger,Groceries,Food,-61.46,Amex Blue Cash,expense,cleared,
+TX00364,2025-11-24,Kroger,Groceries,Food,-51.25,Amex Blue Cash,expense,cleared,
+TX00365,2025-11-01,Trader Joes,Groceries,Food,-174.42,Amex Blue Cash,expense,cleared,
+TX00366,2025-11-15,Kroger,Groceries,Food,-83.04,Amex Blue Cash,expense,cleared,
+TX00367,2025-11-13,Trader Joes,Groceries,Food,-97.8,Amex Blue Cash,expense,cleared,
+TX00368,2025-11-26,Safeway,Groceries,Food,-64.13,Amex Blue Cash,expense,cleared,
+TX00369,2025-11-06,Whole Foods,Groceries,Food,-110.05,Amex Blue Cash,expense,cleared,
+TX00370,2025-11-09,Trader Joes,Groceries,Food,-181.47,Amex Blue Cash,expense,cleared,
+TX00371,2025-11-05,Whole Foods,Groceries,Food,-163.71,Amex Blue Cash,expense,cleared,
+TX00372,2025-11-08,Uber Eats,Dining Out,Food,-10.02,Chase Sapphire,expense,cleared,
+TX00373,2025-11-24,Uber Eats,Dining Out,Food,-55.57,Chase Sapphire,expense,cleared,
+TX00374,2025-11-15,Chipotle,Dining Out,Food,-44.04,Chase Sapphire,expense,cleared,
+TX00375,2025-11-03,Chipotle,Dining Out,Food,-27.28,Chase Sapphire,expense,cleared,
+TX00376,2025-11-20,Starbucks,Dining Out,Food,-37.26,Chase Sapphire,expense,cleared,
+TX00377,2025-11-06,Local Restaurant,Dining Out,Food,-66.99,Chase Sapphire,expense,cleared,
+TX00378,2025-11-19,Chipotle,Dining Out,Food,-60.44,Chase Sapphire,expense,cleared,
+TX00379,2025-11-11,Exxon,Fuel,Transport,-81.35,Chase Sapphire,expense,cleared,
+TX00380,2025-11-24,Chevron,Fuel,Transport,-40.17,Chase Sapphire,expense,cleared,
+TX00381,2025-11-03,Chevron,Fuel,Transport,-58.28,Chase Sapphire,expense,cleared,
+TX00382,2025-11-07,Exxon,Fuel,Transport,-70.86,Chase Sapphire,expense,cleared,
+TX00383,2025-11-25,Walmart,Shopping,Lifestyle,-202.77,Chase Sapphire,expense,cleared,
+TX00384,2025-11-19,Amazon,Shopping,Lifestyle,-147.84,Chase Sapphire,expense,cleared,
+TX00385,2025-11-09,Best Buy,Shopping,Lifestyle,-57.33,Chase Sapphire,expense,cleared,
+TX00386,2025-11-18,Amazon,Shopping,Lifestyle,-216.46,Chase Sapphire,expense,cleared,
+TX00387,2025-11-20,Best Buy Laptop,Shopping,Lifestyle,-1450.0,Chase Sapphire,expense,cleared,anomaly candidate
+TX00388,2025-12-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00389,2025-12-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00390,2025-12-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00391,2025-12-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00392,2025-12-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00393,2025-12-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00394,2025-12-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00395,2025-12-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00396,2025-12-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00397,2025-12-18,Electric Utility,Utilities,Housing,-139.0,Chase Total Checking,expense,cleared,recurring
+TX00398,2025-12-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00399,2025-12-22,Kroger,Groceries,Food,-102.92,Amex Blue Cash,expense,cleared,
+TX00400,2025-12-21,Kroger,Groceries,Food,-91.42,Amex Blue Cash,expense,cleared,
+TX00401,2025-12-02,Costco,Groceries,Food,-85.95,Amex Blue Cash,expense,cleared,
+TX00402,2025-12-13,Kroger,Groceries,Food,-142.57,Amex Blue Cash,expense,cleared,
+TX00403,2025-12-12,Costco,Groceries,Food,-155.95,Amex Blue Cash,expense,cleared,
+TX00404,2025-12-20,Safeway,Groceries,Food,-181.83,Amex Blue Cash,expense,cleared,
+TX00405,2025-12-17,Trader Joes,Groceries,Food,-172.65,Amex Blue Cash,expense,cleared,
+TX00406,2025-12-10,Whole Foods,Groceries,Food,-128.02,Amex Blue Cash,expense,cleared,
+TX00407,2025-12-07,Kroger,Groceries,Food,-164.04,Amex Blue Cash,expense,cleared,
+TX00408,2025-12-28,DoorDash,Dining Out,Food,-61.86,Chase Sapphire,expense,cleared,
+TX00409,2025-12-06,Uber Eats,Dining Out,Food,-14.15,Chase Sapphire,expense,cleared,
+TX00410,2025-12-21,DoorDash,Dining Out,Food,-42.68,Chase Sapphire,expense,cleared,
+TX00411,2025-12-04,DoorDash,Dining Out,Food,-29.53,Chase Sapphire,expense,cleared,
+TX00412,2025-12-03,Starbucks,Dining Out,Food,-33.71,Chase Sapphire,expense,cleared,
+TX00413,2025-12-07,DoorDash,Dining Out,Food,-14.9,Chase Sapphire,expense,cleared,
+TX00414,2025-12-14,Starbucks,Dining Out,Food,-31.57,Chase Sapphire,expense,cleared,
+TX00415,2025-12-16,Exxon,Fuel,Transport,-57.12,Chase Sapphire,expense,cleared,
+TX00416,2025-12-24,Chevron,Fuel,Transport,-44.17,Chase Sapphire,expense,cleared,
+TX00417,2025-12-08,Shell,Fuel,Transport,-71.68,Chase Sapphire,expense,cleared,
+TX00418,2025-12-03,Shell,Fuel,Transport,-69.6,Chase Sapphire,expense,cleared,
+TX00419,2025-12-22,Best Buy,Shopping,Lifestyle,-58.47,Chase Sapphire,expense,cleared,
+TX00420,2025-12-09,Best Buy,Shopping,Lifestyle,-147.27,Chase Sapphire,expense,cleared,
+TX00421,2025-12-20,Amazon,Shopping,Lifestyle,-153.77,Chase Sapphire,expense,cleared,
+TX00422,2025-12-19,Amazon,Shopping,Lifestyle,-38.55,Chase Sapphire,expense,cleared,
+TX00423,2026-01-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00424,2026-01-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00425,2026-01-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00426,2026-01-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00427,2026-01-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00428,2026-01-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00429,2026-01-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00430,2026-01-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00431,2026-01-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00432,2026-01-18,Electric Utility,Utilities,Housing,-168.0,Chase Total Checking,expense,cleared,recurring
+TX00433,2026-01-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00434,2026-01-10,Kroger,Groceries,Food,-166.82,Amex Blue Cash,expense,cleared,
+TX00435,2026-01-11,Costco,Groceries,Food,-102.57,Amex Blue Cash,expense,cleared,
+TX00436,2026-01-02,Kroger,Groceries,Food,-155.61,Amex Blue Cash,expense,cleared,
+TX00437,2026-01-08,Trader Joes,Groceries,Food,-113.78,Amex Blue Cash,expense,cleared,
+TX00438,2026-01-20,Kroger,Groceries,Food,-145.52,Amex Blue Cash,expense,cleared,
+TX00439,2026-01-25,Safeway,Groceries,Food,-94.85,Amex Blue Cash,expense,cleared,
+TX00440,2026-01-06,Trader Joes,Groceries,Food,-174.29,Amex Blue Cash,expense,cleared,
+TX00441,2026-01-21,Safeway,Groceries,Food,-91.99,Amex Blue Cash,expense,cleared,
+TX00442,2026-01-12,Kroger,Groceries,Food,-140.83,Amex Blue Cash,expense,cleared,
+TX00443,2026-01-13,Local Restaurant,Dining Out,Food,-57.72,Chase Sapphire,expense,cleared,
+TX00444,2026-01-16,Starbucks,Dining Out,Food,-56.33,Chase Sapphire,expense,cleared,
+TX00445,2026-01-01,DoorDash,Dining Out,Food,-24.66,Chase Sapphire,expense,cleared,
+TX00446,2026-01-03,Chipotle,Dining Out,Food,-60.21,Chase Sapphire,expense,cleared,
+TX00447,2026-01-07,Chipotle,Dining Out,Food,-54.15,Chase Sapphire,expense,cleared,
+TX00448,2026-01-06,Starbucks,Dining Out,Food,-27.6,Chase Sapphire,expense,cleared,
+TX00449,2026-01-17,DoorDash,Dining Out,Food,-62.7,Chase Sapphire,expense,cleared,
+TX00450,2026-01-16,Exxon,Fuel,Transport,-50.51,Chase Sapphire,expense,cleared,
+TX00451,2026-01-18,Shell,Fuel,Transport,-46.89,Chase Sapphire,expense,cleared,
+TX00452,2026-01-05,Exxon,Fuel,Transport,-42.94,Chase Sapphire,expense,cleared,
+TX00453,2026-01-17,Shell,Fuel,Transport,-57.41,Chase Sapphire,expense,cleared,
+TX00454,2026-01-21,Amazon,Shopping,Lifestyle,-70.65,Chase Sapphire,expense,cleared,
+TX00455,2026-01-04,Target,Shopping,Lifestyle,-65.16,Chase Sapphire,expense,cleared,
+TX00456,2026-01-26,Target,Shopping,Lifestyle,-158.1,Chase Sapphire,expense,cleared,
+TX00457,2026-01-02,Amazon,Shopping,Lifestyle,-83.47,Chase Sapphire,expense,cleared,
+TX00458,2026-02-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00459,2026-02-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00460,2026-02-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00461,2026-02-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00462,2026-02-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00463,2026-02-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00464,2026-02-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00465,2026-02-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00466,2026-02-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00467,2026-02-18,Electric Utility,Utilities,Housing,-131.0,Chase Total Checking,expense,cleared,recurring
+TX00468,2026-02-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00469,2026-02-23,Trader Joes,Groceries,Food,-65.38,Amex Blue Cash,expense,cleared,
+TX00470,2026-02-12,Costco,Groceries,Food,-175.79,Amex Blue Cash,expense,cleared,
+TX00471,2026-02-27,Safeway,Groceries,Food,-77.09,Amex Blue Cash,expense,cleared,
+TX00472,2026-02-20,Costco,Groceries,Food,-115.32,Amex Blue Cash,expense,cleared,
+TX00473,2026-02-15,Safeway,Groceries,Food,-122.94,Amex Blue Cash,expense,cleared,
+TX00474,2026-02-02,Safeway,Groceries,Food,-149.94,Amex Blue Cash,expense,cleared,
+TX00475,2026-02-25,Trader Joes,Groceries,Food,-60.62,Amex Blue Cash,expense,cleared,
+TX00476,2026-02-01,Safeway,Groceries,Food,-135.79,Amex Blue Cash,expense,cleared,
+TX00477,2026-02-16,Safeway,Groceries,Food,-100.31,Amex Blue Cash,expense,cleared,
+TX00478,2026-02-19,DoorDash,Dining Out,Food,-53.02,Chase Sapphire,expense,cleared,
+TX00479,2026-02-05,Chipotle,Dining Out,Food,-67.53,Chase Sapphire,expense,cleared,
+TX00480,2026-02-04,Starbucks,Dining Out,Food,-60.46,Chase Sapphire,expense,cleared,
+TX00481,2026-02-27,Chipotle,Dining Out,Food,-42.08,Chase Sapphire,expense,cleared,
+TX00482,2026-02-02,Chipotle,Dining Out,Food,-71.68,Chase Sapphire,expense,cleared,
+TX00483,2026-02-23,DoorDash,Dining Out,Food,-69.42,Chase Sapphire,expense,cleared,
+TX00484,2026-02-08,Uber Eats,Dining Out,Food,-17.53,Chase Sapphire,expense,cleared,
+TX00485,2026-02-15,Exxon,Fuel,Transport,-49.22,Chase Sapphire,expense,cleared,
+TX00486,2026-02-27,Exxon,Fuel,Transport,-63.13,Chase Sapphire,expense,cleared,
+TX00487,2026-02-06,Shell,Fuel,Transport,-66.64,Chase Sapphire,expense,cleared,
+TX00488,2026-02-07,Chevron,Fuel,Transport,-73.46,Chase Sapphire,expense,cleared,
+TX00489,2026-02-18,Walmart,Shopping,Lifestyle,-197.42,Chase Sapphire,expense,cleared,
+TX00490,2026-02-04,Best Buy,Shopping,Lifestyle,-132.33,Chase Sapphire,expense,cleared,
+TX00491,2026-02-16,Walmart,Shopping,Lifestyle,-32.46,Chase Sapphire,expense,cleared,
+TX00492,2026-02-08,Best Buy,Shopping,Lifestyle,-116.61,Chase Sapphire,expense,cleared,
+TX00493,2026-03-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00494,2026-03-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00495,2026-03-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00496,2026-03-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00497,2026-03-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00498,2026-03-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00499,2026-03-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00500,2026-03-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00501,2026-03-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00502,2026-03-18,Electric Utility,Utilities,Housing,-150.0,Chase Total Checking,expense,cleared,recurring
+TX00503,2026-03-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00504,2026-03-10,Kroger,Groceries,Food,-105.1,Amex Blue Cash,expense,cleared,
+TX00505,2026-03-23,Safeway,Groceries,Food,-74.89,Amex Blue Cash,expense,cleared,
+TX00506,2026-03-05,Safeway,Groceries,Food,-100.71,Amex Blue Cash,expense,cleared,
+TX00507,2026-03-21,Whole Foods,Groceries,Food,-67.72,Amex Blue Cash,expense,cleared,
+TX00508,2026-03-22,Kroger,Groceries,Food,-81.43,Amex Blue Cash,expense,cleared,
+TX00509,2026-03-01,Trader Joes,Groceries,Food,-58.02,Amex Blue Cash,expense,cleared,
+TX00510,2026-03-25,Kroger,Groceries,Food,-119.65,Amex Blue Cash,expense,cleared,
+TX00511,2026-03-11,Costco,Groceries,Food,-64.19,Amex Blue Cash,expense,cleared,
+TX00512,2026-03-15,Kroger,Groceries,Food,-79.06,Amex Blue Cash,expense,cleared,
+TX00513,2026-03-23,Uber Eats,Dining Out,Food,-43.1,Chase Sapphire,expense,cleared,
+TX00514,2026-03-09,Starbucks,Dining Out,Food,-35.65,Chase Sapphire,expense,cleared,
+TX00515,2026-03-03,Chipotle,Dining Out,Food,-39.58,Chase Sapphire,expense,cleared,
+TX00516,2026-03-16,Chipotle,Dining Out,Food,-51.72,Chase Sapphire,expense,cleared,
+TX00517,2026-03-13,Local Restaurant,Dining Out,Food,-54.07,Chase Sapphire,expense,cleared,
+TX00518,2026-03-25,Starbucks,Dining Out,Food,-18.95,Chase Sapphire,expense,cleared,
+TX00519,2026-03-27,Local Restaurant,Dining Out,Food,-28.08,Chase Sapphire,expense,cleared,
+TX00520,2026-03-04,Chevron,Fuel,Transport,-55.65,Chase Sapphire,expense,cleared,
+TX00521,2026-03-18,Exxon,Fuel,Transport,-47.48,Chase Sapphire,expense,cleared,
+TX00522,2026-03-08,Chevron,Fuel,Transport,-38.64,Chase Sapphire,expense,cleared,
+TX00523,2026-03-06,Shell,Fuel,Transport,-45.47,Chase Sapphire,expense,cleared,
+TX00524,2026-03-01,Walmart,Shopping,Lifestyle,-65.12,Chase Sapphire,expense,cleared,
+TX00525,2026-03-15,Best Buy,Shopping,Lifestyle,-85.6,Chase Sapphire,expense,cleared,
+TX00526,2026-03-17,Target,Shopping,Lifestyle,-97.5,Chase Sapphire,expense,cleared,
+TX00527,2026-03-27,Amazon,Shopping,Lifestyle,-46.99,Chase Sapphire,expense,cleared,
+TX00528,2026-03-20,Best Buy Laptop,Shopping,Lifestyle,-1450.0,Chase Sapphire,expense,cleared,anomaly candidate
+TX00529,2026-04-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00530,2026-04-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00531,2026-04-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00532,2026-04-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00533,2026-04-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00534,2026-04-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00535,2026-04-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00536,2026-04-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00537,2026-04-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00538,2026-04-18,Electric Utility,Utilities,Housing,-172.0,Chase Total Checking,expense,cleared,recurring
+TX00539,2026-04-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00540,2026-04-11,Costco,Groceries,Food,-175.91,Amex Blue Cash,expense,cleared,
+TX00541,2026-04-15,Trader Joes,Groceries,Food,-126.28,Amex Blue Cash,expense,cleared,
+TX00542,2026-04-21,Safeway,Groceries,Food,-171.15,Amex Blue Cash,expense,cleared,
+TX00543,2026-04-20,Safeway,Groceries,Food,-145.75,Amex Blue Cash,expense,cleared,
+TX00544,2026-04-25,Trader Joes,Groceries,Food,-53.88,Amex Blue Cash,expense,cleared,
+TX00545,2026-04-22,Trader Joes,Groceries,Food,-104.94,Amex Blue Cash,expense,cleared,
+TX00546,2026-04-05,Costco,Groceries,Food,-140.85,Amex Blue Cash,expense,cleared,
+TX00547,2026-04-17,Whole Foods,Groceries,Food,-147.52,Amex Blue Cash,expense,cleared,
+TX00548,2026-04-14,Trader Joes,Groceries,Food,-102.54,Amex Blue Cash,expense,cleared,
+TX00549,2026-04-06,Starbucks,Dining Out,Food,-24.51,Chase Sapphire,expense,cleared,
+TX00550,2026-04-16,Local Restaurant,Dining Out,Food,-20.12,Chase Sapphire,expense,cleared,
+TX00551,2026-04-07,Starbucks,Dining Out,Food,-40.88,Chase Sapphire,expense,cleared,
+TX00552,2026-04-27,Chipotle,Dining Out,Food,-22.2,Chase Sapphire,expense,cleared,
+TX00553,2026-04-26,Uber Eats,Dining Out,Food,-71.11,Chase Sapphire,expense,cleared,
+TX00554,2026-04-05,Local Restaurant,Dining Out,Food,-32.52,Chase Sapphire,expense,cleared,
+TX00555,2026-04-18,DoorDash,Dining Out,Food,-68.48,Chase Sapphire,expense,cleared,
+TX00556,2026-04-28,Shell,Fuel,Transport,-68.25,Chase Sapphire,expense,cleared,
+TX00557,2026-04-22,Shell,Fuel,Transport,-64.45,Chase Sapphire,expense,cleared,
+TX00558,2026-04-14,Exxon,Fuel,Transport,-74.98,Chase Sapphire,expense,cleared,
+TX00559,2026-04-09,Chevron,Fuel,Transport,-77.63,Chase Sapphire,expense,cleared,
+TX00560,2026-04-05,Best Buy,Shopping,Lifestyle,-127.84,Chase Sapphire,expense,cleared,
+TX00561,2026-04-15,Best Buy,Shopping,Lifestyle,-143.33,Chase Sapphire,expense,cleared,
+TX00562,2026-04-27,Best Buy,Shopping,Lifestyle,-139.25,Chase Sapphire,expense,cleared,
+TX00563,2026-04-18,Target,Shopping,Lifestyle,-102.05,Chase Sapphire,expense,cleared,
+TX00564,2026-04-24,Delta Airlines,Travel Fund,Goals,-780.0,Chase Sapphire,expense,cleared,planned travel
+TX00565,2026-05-01,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00566,2026-05-15,Acme Corp Payroll,Salary,Income,4250.0,Chase Total Checking,income,cleared,recurring
+TX00567,2026-05-02,Evergreen Apartments Rent,Rent,Housing,-2450.0,Chase Total Checking,expense,cleared,recurring
+TX00568,2026-05-05,Student Loan Servicer,Debt Payment,Finance,-420.0,Chase Total Checking,expense,cleared,recurring
+TX00569,2026-05-07,Vanguard Automatic Investment,Investments,Savings,-900.0,Chase Total Checking,investment,cleared,recurring
+TX00570,2026-05-08,Ally Emergency Fund Transfer,Emergency Fund,Savings,-650.0,Chase Total Checking,savings,cleared,recurring
+TX00571,2026-05-10,Netflix,Entertainment,Lifestyle,-15.49,Chase Sapphire,expense,cleared,recurring
+TX00572,2026-05-11,Spotify Family,Entertainment,Lifestyle,-16.99,Amex Blue Cash,expense,cleared,recurring
+TX00573,2026-05-12,Geico Auto Insurance,Insurance,Transport,-118.0,Chase Total Checking,expense,cleared,recurring
+TX00574,2026-05-18,Electric Utility,Utilities,Housing,-137.0,Chase Total Checking,expense,cleared,recurring
+TX00575,2026-05-22,Internet Fiber,Utilities,Housing,-79.99,Chase Total Checking,expense,cleared,recurring
+TX00576,2026-05-13,Whole Foods,Groceries,Food,-90.58,Amex Blue Cash,expense,cleared,
+TX00577,2026-05-20,Whole Foods,Groceries,Food,-106.66,Amex Blue Cash,expense,cleared,
+TX00578,2026-05-21,Safeway,Groceries,Food,-51.31,Amex Blue Cash,expense,cleared,
+TX00579,2026-05-27,Costco,Groceries,Food,-108.54,Amex Blue Cash,expense,cleared,
+TX00580,2026-05-09,Whole Foods,Groceries,Food,-73.92,Amex Blue Cash,expense,cleared,
+TX00581,2026-05-14,Kroger,Groceries,Food,-159.35,Amex Blue Cash,expense,cleared,
+TX00582,2026-05-23,Whole Foods,Groceries,Food,-150.64,Amex Blue Cash,expense,cleared,
+TX00583,2026-05-11,Trader Joes,Groceries,Food,-56.2,Amex Blue Cash,expense,cleared,
+TX00584,2026-05-17,Whole Foods,Groceries,Food,-52.27,Amex Blue Cash,expense,cleared,
+TX00585,2026-05-23,Chipotle,Dining Out,Food,-32.6,Chase Sapphire,expense,cleared,
+TX00586,2026-05-12,Starbucks,Dining Out,Food,-65.84,Chase Sapphire,expense,cleared,
+TX00587,2026-05-01,Uber Eats,Dining Out,Food,-52.11,Chase Sapphire,expense,cleared,
+TX00588,2026-05-20,Uber Eats,Dining Out,Food,-14.26,Chase Sapphire,expense,cleared,
+TX00589,2026-05-18,Chipotle,Dining Out,Food,-49.59,Chase Sapphire,expense,cleared,
+TX00590,2026-05-09,Local Restaurant,Dining Out,Food,-20.71,Chase Sapphire,expense,cleared,
+TX00591,2026-05-04,Uber Eats,Dining Out,Food,-41.98,Chase Sapphire,expense,cleared,
+TX00592,2026-05-06,Shell,Fuel,Transport,-46.15,Chase Sapphire,expense,cleared,
+TX00593,2026-05-11,Shell,Fuel,Transport,-54.23,Chase Sapphire,expense,cleared,
+TX00594,2026-05-13,Chevron,Fuel,Transport,-59.86,Chase Sapphire,expense,cleared,
+TX00595,2026-05-26,Exxon,Fuel,Transport,-64.71,Chase Sapphire,expense,cleared,
+TX00596,2026-05-10,Best Buy,Shopping,Lifestyle,-50.67,Chase Sapphire,expense,cleared,
+TX00597,2026-05-01,Amazon,Shopping,Lifestyle,-162.83,Chase Sapphire,expense,cleared,
+TX00598,2026-05-04,Best Buy,Shopping,Lifestyle,-44.78,Chase Sapphire,expense,cleared,
+TX00599,2026-05-13,Target,Shopping,Lifestyle,-72.09,Chase Sapphire,expense,cleared,

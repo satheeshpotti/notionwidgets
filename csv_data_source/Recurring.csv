@@ -1,0 +1,11 @@
+name,group,category,amount,frequency,due_day,status
+Acme Payroll 1,Income,Salary,4250.0,monthly,1,active
+Acme Payroll 2,Income,Salary,4250.0,monthly,15,active
+Rent,Housing,Rent,2450.0,monthly,2,active
+Student Loan,Finance,Debt Payment,420.0,monthly,5,active
+Vanguard Auto Invest,Savings,Investments,900.0,monthly,7,active
+Emergency Fund,Savings,Emergency Fund,650.0,monthly,8,active
+Netflix,Lifestyle,Entertainment,15.49,monthly,10,active
+Spotify,Lifestyle,Entertainment,16.99,monthly,11,active
+Geico,Transport,Insurance,118.0,monthly,12,active
+Internet,Housing,Utilities,79.99,monthly,22,active

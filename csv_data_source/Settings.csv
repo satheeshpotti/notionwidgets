@@ -1,0 +1,31 @@
+setting_key,setting_value,notes
+user_name,Satheesh,Personalized display name
+currency,USD,Currency code
+current_month,2026-05,YYYY-MM
+dashboard_title,Money Command Center,Dashboard title
+reports_title,Reports Dashboard,Reports title
+csv_base,csv_data_source,Relative CSV folder for static hosting
+data_mode,embedded,"embedded, csvFolder, googleSheets, githubRaw"
+auto_refresh_minutes,10,For published CSV/Google Sheets/GitHub raw mode
+monthly_income_target,8500,Expected after-tax income
+savings_rate_target_pct,25,Target savings rate
+emergency_fund_target_months,6,Runway target
+credit_utilization_limit_pct,30,Recommended max utilization
+budget_prediction_lookback_months,6,Lookback months
+anomaly_threshold_multiplier,1.75,Anomaly sensitivity
+transactions_url,#transactions,Notion Transactions database/view URL
+accounts_url,#accounts,Notion Accounts database/view URL
+budgets_url,#budgets,Notion Budgets database/view URL
+recurring_url,#recurring,Notion Recurring database/view URL
+debt_url,#debt,Notion Debt database/view URL
+goals_url,#goals,Notion Goals database/view URL
+reports_url,#reports,Notion Reports page URL
+subscriptions_url,#subscriptions,Notion Subscriptions database/view URL
+bills_url,#bills,Notion Bills database/view URL
+wishlist_url,#wishlist,Notion Wishlist database/view URL
+orders_url,#orders,Notion Orders database/view URL
+nospend_url,#nospend,Notion NoSpend database/view URL
+quick_capture_income_url,#new-income,Notion Income template/new page URL
+quick_capture_expense_url,#new-expense,Notion Expense template/new page URL
+quick_capture_transfer_url,#new-transfer,Notion Transfer template/new page URL
+quick_capture_recurring_url,#new-recurring,Notion Recurring template/new page URL

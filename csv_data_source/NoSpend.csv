@@ -1,0 +1,3 @@
+start_date,end_date,category,rule,status,success_days,target_days
+2026-05-01,2026-05-31,Dining Out,Reduce restaurant spend,active,12,20
+2026-06-01,2026-06-30,Shopping,No impulse Amazon purchases,planned,0,30

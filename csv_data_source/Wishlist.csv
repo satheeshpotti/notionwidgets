@@ -1,0 +1,5 @@
+item,estimated_cost,target_date,priority,rule
+Standing Desk,650,2026-07-01,medium,wait for sale
+Italy Trip Upgrade,1200,2026-09-01,low,only if surplus
+New Laptop,2200,2026-08-31,high,goal-linked
+Robot Vacuum,480,2026-11-15,low,defer

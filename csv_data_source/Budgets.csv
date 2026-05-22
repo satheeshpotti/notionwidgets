@@ -1,0 +1,15 @@
+group,category,monthly_budget,frequency,priority_bucket
+Housing,Rent,2450,monthly,Essential
+Housing,Utilities,280,monthly,Essential
+Food,Groceries,850,monthly,Variable
+Food,Dining Out,450,monthly,Variable
+Transport,Fuel,260,monthly,Variable
+Transport,Insurance,125,monthly,Essential
+Lifestyle,Shopping,650,monthly,Variable
+Lifestyle,Entertainment,120,monthly,Variable
+Health,Medical,180,monthly,Essential
+Kids,Childcare,900,monthly,Essential
+Finance,Debt Payment,500,monthly,Debt
+Savings,Emergency Fund,650,monthly,Goal
+Savings,Investments,900,monthly,Goal
+Goals,Travel Fund,400,monthly,Goal

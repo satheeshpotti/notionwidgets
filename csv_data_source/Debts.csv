@@ -1,0 +1,4 @@
+debt_name,balance,apr_pct,minimum_payment,target_payoff_date,strategy
+Student Loan,14800,5.2,420,2029-06-01,avalanche
+Chase Sapphire,1850,22.4,350,2026-10-01,avalanche
+Amex Blue Cash,620,19.9,200,2026-07-01,avalanche

@@ -1,0 +1,8 @@
+account_type,account_name,dashboard_type,starting_balance,credit_limit,status
+Checking,Chase Total Checking,checking,6200,0,active
+Savings,Ally HYSA,savings,18500,0,active
+Investment,Vanguard Brokerage,investment,42500,0,active
+Retirement,Fidelity 401k,investment,96500,0,active
+Credit Card,Chase Sapphire,credit,-1850,12000,active
+Credit Card,Amex Blue Cash,credit,-620,10000,active
+Loan,Student Loan,debt,-14800,0,active

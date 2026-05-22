@@ -1,0 +1,7 @@
+subscription,monthly_cost,category,next_charge_date,status,decision
+Netflix,15.49,Entertainment,2026-06-10,active,review
+Spotify Family,16.99,Entertainment,2026-06-11,active,keep
+iCloud,2.99,Utilities,2026-06-05,active,keep
+Gym,69.0,Health,2026-06-03,active,review
+Canva Pro,14.99,Work Tools,2026-06-14,active,keep
+Hulu,17.99,Entertainment,2026-06-21,paused,cancel candidate

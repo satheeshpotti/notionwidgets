@@ -1,0 +1,19 @@
+group,category,type,classification_keywords,priority_bucket
+Income,Salary,income,Payroll|Paycheck|Acme,Keep
+Income,Bonus,income,Bonus|Commission,Keep
+Income,Interest,income,Interest|Dividend,Keep
+Housing,Rent,expense,Rent|Apartment|Landlord,Essential
+Housing,Utilities,expense,Electric|Water|Gas|Internet|Utility,Essential
+Food,Groceries,expense,Whole Foods|Trader Joe|Costco|Kroger|Safeway,Variable
+Food,Dining Out,expense,Restaurant|Cafe|DoorDash|Uber Eats|Chipotle|Starbucks,Variable
+Transport,Fuel,expense,Shell|Chevron|Exxon|Gas,Variable
+Transport,Insurance,expense,Geico|Progressive|Insurance,Essential
+Lifestyle,Shopping,expense,Amazon|Target|Walmart|Best Buy|Nordstrom,Variable
+Lifestyle,Entertainment,expense,Netflix|Spotify|Hulu|Disney|AMC,Variable
+Health,Medical,expense,CVS|Walgreens|Doctor|Dental,Essential
+Finance,Debt Payment,expense,Student Loan|Visa Payment|Mastercard Payment,Debt
+Finance,Transfer,transfer,Transfer|Move|ACH,Transfer
+Savings,Emergency Fund,savings,Emergency|HYSA|Ally,Goal
+Savings,Investments,investment,Vanguard|Fidelity|Schwab|Robinhood,Goal
+Goals,Travel Fund,savings,Travel Fund|Vacation|Delta,Goal
+Kids,Childcare,expense,Daycare|School,Essential
