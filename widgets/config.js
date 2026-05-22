@@ -3,19 +3,19 @@ window.FINANCE_CONFIG = {
   csvBase: "csv_data_source",
   autoRefreshMinutes: 10,
   googleSheetsCsv: {
-    Settings: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1327943434#gid=1327943434", 
-    Categories: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=197316364#gid=197316364", 
-    Accounts: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=511010124#gid=511010124", 
-    Transactions: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1409427928#gid=1409427928", 
-    Budgets: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1060083035#gid=1060083035", 
-    Recurring: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1375853836#gid=1375853836", 
-    Debts: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=96100523#gid=96100523", 
-    Goals: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1048878317#gid=1048878317", 
-    Subscriptions: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=828550228#gid=828550228", 
-    Wishlist: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=155840862#gid=155840862", 
-    Bills: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=85482757#gid=85482757", 
-    Orders: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=938123705#gid=938123705", 
-    NoSpend: "https://docs.google.com/spreadsheets/d/1QyNATS05nF6fuyOiMlV2LgFmOtv4V__3v3keuwkhV9M/edit?gid=1999922847#gid=1999922847"
+    Settings: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1327943434&single=true&output=csv", 
+    Categories: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=197316364&single=true&output=csv", 
+    Accounts: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=511010124&single=true&output=csv", 
+    Transactions: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1409427928&single=true&output=csv", 
+    Budgets: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1060083035&single=true&output=csv", 
+    Recurring: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1375853836&single=true&output=csv", 
+    Debts: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=96100523&single=true&output=csv", 
+    Goals: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1048878317&single=true&output=csv", 
+    Subscriptions: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=828550228&single=true&output=csv", 
+    Wishlist: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=155840862&single=true&output=csv", 
+    Bills: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=85482757&single=true&output=csv", 
+    Orders: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=938123705&single=true&output=csv", 
+    NoSpend: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIA7aYkZ0Xjk0U8JJGTkg4cZIp_Qggx0biJAgRa3kFNqTN_5Um91VSYjpMqlH8A5d3LP9P_2t0qg23/pub?gid=1999922847&single=true&output=csv"
   },
   githubRawBase: ""
 };
