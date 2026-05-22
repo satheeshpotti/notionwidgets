@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="embedded-data.js"></script>
+    <script src="config.js"></script>
+    <style>
+        :root {
+            --ink: #132338;
+            --muted: #64748b;
+            --mint: #D9FFF5;
+            --aqua: #C6F4FA;
+            --lav: #E8E6FF;
+            --green: #70D69B;
+            --yellow: #E8BF3F;
+            --red: #EF6F7B;
+            --white: rgba(255, 255, 255, .74);
+            --line: rgba(151, 185, 211, .55)
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: transparent;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            color: var(--ink)
+        }
+
+        .shell {
+            border-radius: 28px;
+            border: 1px solid var(--line);
+            background: linear-gradient(135deg, var(--mint), var(--aqua) 52%, var(--lav));
+            padding: 20px;
+            box-shadow: 0 18px 44px rgba(90, 116, 150, .14)
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between
+        }
+
+        .kicker {
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 11px;
+            font-weight: 900;
+            color: #54718f
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: 950;
+            letter-spacing: -.05em
+        }
+
+        .status,
+        .mini {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .grid {
+            display: grid;
+            gap: 12px
+        }
+
+        .kpis {
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 14px
+        }
+
+        .main {
+            grid-template-columns: 1.1fr 1fr 1.2fr;
+            margin-top: 12px
+        }
+
+        .trackers {
+            grid-template-columns: repeat(5, 1fr);
+            margin-top: 12px
+        }
+
+        .rows,
+        .reports {
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 12px
+        }
+
+        .card {
+            background: var(--white);
+            border: 1px solid rgba(151, 185, 211, .45);
+            border-radius: 18px;
+            padding: 13px
+        }
+
+        .click {
+            cursor: pointer
+        }
+
+        .label {
+            font-size: 11px;
+            font-weight: 900;
+            color: var(--muted);
+            text-transform: uppercase
+        }
+
+        .value {
+            font-size: 23px;
+            font-weight: 950
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 950;
+            margin-bottom: 8px
+        }
+
+        button {
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 9px;
+            background: rgba(255, 255, 255, .78);
+            font-weight: 850;
+            color: var(--ink);
+            cursor: pointer
+        }
+
+        button.primary {
+            background: #132338;
+            color: white
+        }
+
+        .btns {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px
+        }
+
+        .chart,
+        .report-chart {
+            height: 215px
+        }
+
+        .priority-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px
+        }
+
+        .note {
+            background: rgba(255, 255, 255, .55);
+            border-radius: 14px;
+            padding: 8px
+        }
+
+        .bar {
+            height: 10px;
+            border-radius: 99px;
+            background: white;
+            overflow: hidden
+        }
+
+        .fill {
+            height: 100%
+        }
+
+        table {
+            width: 100%;
+            font-size: 12px;
+            border-collapse: collapse
+        }
+
+        td {
+            border-bottom: 1px solid rgba(151, 185, 211, .35);
+            padding: 6px
+        }
+
+        .tooltip {
+            position: fixed;
+            display: none;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 10px;
+            box-shadow: 0 18px 44px rgba(90, 116, 150, .14);
+            font-size: 12px;
+            z-index: 9
+        }
+
+        @media(max-width:900px) {
+
+            .kpis,
+            .main,
+            .trackers,
+            .rows,
+            .reports,
+            .priority-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .top {
+                display: block
+            }
+        }
+
+        @media(max-width:650px) {
+
+            .kpis,
+            .main,
+            .trackers,
+            .rows,
+            .reports,
+            .priority-grid {
+                grid-template-columns: 1fr
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shell">
+        <div class="top">
+            <div>
+                <div class="kicker">Money Command Center</div>
+                <div class="title">Hi <span id="name"></span>, your <span id="mon"></span> money plan</div>
+                <div id="status" class="status"></div>
+            </div><button class="primary" onclick="printPDF()">Generate PDF / Print Report</button>
+        </div>
+        <div class="grid kpis">
+            <div class="card">
+                <div class="label">Net Worth</div>
+                <div class="value" id="nw"></div>
+            </div>
+            <div class="card">
+                <div class="label">Cash Flow</div>
+                <div class="value" id="cf"></div>
+            </div>
+            <div class="card">
+                <div class="label">Savings Rate</div>
+                <div class="value" id="sr"></div>
+            </div>
+            <div class="card">
+                <div class="label">Runway</div>
+                <div class="value" id="run"></div>
+            </div>
+        </div>
+        <div class="grid main">
+            <div class="card">
+                <div class="section">Personalized priorities and insights</div>
+                <div id="prior"></div>
+            </div>
+            <div class="card">
+                <div class="section">Quick capture</div>
+                <div class="btns"><button onclick="cap('income')">Income</button><button
+                        onclick="cap('expense')">Expense</button><button
+                        onclick="cap('transfer')">Transfer</button><button onclick="cap('recurring')">Recurring</button>
+                </div>
+                <div id="advisor" class="mini"></div>
+            </div>
+            <div class="card">
+                <div class="section">Planner graphs</div><button onclick="planner='cash';render()">Cash
+                    flow</button><button onclick="planner='spend';render()">Spend mix</button><button
+                    onclick="planner='goals';render()">Goals</button>
+                <div class="chart"><canvas id="planner"></canvas></div>
+            </div>
+        </div>
+        <div class="grid trackers" id="trackers"></div>
+        <div class="grid rows">
+            <div class="card">
+                <div class="section">Budget health</div>
+                <div id="bud"></div>
+            </div>
+            <div class="card">
+                <div class="section">Credit utilization</div>
+                <div class="chart"><canvas id="creditChart"></canvas></div>
+                <div id="credRows"></div>
+            </div>
+            <div class="card">
+                <div class="section">Recent transactions</div>
+                <div id="recent"></div>
+            </div>
+        </div>
+    </div>
+    <script>const T = ['Settings', 'Categories', 'Accounts', 'Transactions', 'Budgets', 'Recurring', 'Debts', 'Goals', 'Subscriptions', 'Wishlist', 'Bills', 'Orders', 'NoSpend']; let DATA = {}, SOURCE = '', charts = [], RANGE = 12; const $ = s => document.querySelector(s), $$ = s => Array.from(document.querySelectorAll(s)), COL = ['#70D69B', '#E8BF3F', '#EF6F7B', '#5AA7F7', '#9B8CFF', '#70c7d6']; function n(x) { let v = parseFloat(String(x ?? 0).replace(/[$,%]/g, '')); return isNaN(v) ? 0 : v } function val(k) { let r = (DATA.Settings || []).find(x => String(x.setting_key || x.key).trim() == k); return r ? String(r.setting_value ?? r.value) : '' } function url(k) { return val(k) || '#' } function fmt(v) { return new Intl.NumberFormat('en-US', { style: 'currency', currency: val('currency') || 'USD', maximumFractionDigits: 0 }).format(v || 0) } function pct(v) { return (v || 0).toFixed(1) + '%' } function parseCSV(s) {
+            let r = [], row = [], v = '', q = false; for (let i = 0; i < s.length; i++) {
+                let c = s[i], nx = s[i + 1]; if (c == '"' && q && nx == '"') { v += '"'; i++ } else if (c == '"') q = !q; else if (c == ',' && !q) { row.push(v); v = '' } else if ((c == '
+'||c=='
+                ')&&!q){if(c=='
+                '&&nx=='
+                ')i++;row.push(v);if(row.some(x=>x!==''))r.push(row);row=[];v=''}else v+=c}row.push(v);if(row.some(x=>x!==''))r.push(row);let h=r.shift()||[];return r.map(a=>Object.fromEntries(h.map((x,i)=>[x,a[i]??''])))}async function csvUrl(t){let c=window.FINANCE_CONFIG||{};if(c.dataMode==='googleSheets')return c.googleSheetsCsv[t];if(c.dataMode==='githubRaw')return (c.githubRawBase||'').replace(/\/$/,'')+' / '+t+'.csv';return (c.csvBase||'csv_data_source').replace(/\/$/,'')+' / '+t+'.csv'}async function loadCSV(){let o={};for(const t of T){let u=await csvUrl(t);let r=await fetch(u+(u.includes(' ? ')?' & ':' ? ')+'v = '+Date.now());if(!r.ok)throw Error(u);o[t]=parseCSV(await r.text())}DATA=o;SOURCE=(window.FINANCE_CONFIG?.dataMode||'csv')+' data';render()}function init(){let c=window.FINANCE_CONFIG||{};if(!c.dataMode||c.dataMode==='embedded'){DATA=window.EMBEDDED_FINANCE_DATA;SOURCE='embedded demo data';render()}else loadCSV().catch(e=>{DATA=window.EMBEDDED_FINANCE_DATA;SOURCE='embedded fallback: '+e.message;render()});if(c.autoRefreshMinutes&&c.dataMode&&c.dataMode!=='embedded')setInterval(loadCSV,+c.autoRefreshMinutes*60000)}function tx(){return(DATA.Transactions||[]).map(t=>({...t,amount:n(t.amount),date:new Date(t.date)})).filter(t=>!isNaN(t.date))}function cur(){return val('current_month')||new Date().toISOString().slice(0,7)}function mtx(m=cur()){return tx().filter(t=>t.date.toISOString().slice(0,7)==m)}function mons(k=RANGE){return[...new Set(tx().map(t=>t.date.toISOString().slice(0,7)))].sort().slice(-k)}function inc(l){return l.filter(t=>t.amount>0&&t.type==='income').reduce((a,b)=>a+b.amount,0)}function exp(l){return Math.abs(l.filter(t=>t.amount<0&&t.type==='expense').reduce((a,b)=>a+b.amount,0))}function sav(l){return Math.abs(l.filter(t=>['savings','investment'].includes(t.type)).reduce((a,b)=>a+b.amount,0))}function nw(){return(DATA.Accounts||[]).reduce((a,b)=>a+n(b.starting_balance),0)+tx().reduce((a,b)=>a+b.amount,0)}function cash(){return(DATA.Accounts||[]).filter(a=>['checking','savings'].includes(a.dashboard_type)).reduce((a,b)=>a+n(b.starting_balance),0)}function credit(){let c=(DATA.Accounts||[]).filter(a=>a.dashboard_type==='credit');return{u:Math.abs(c.reduce((a,b)=>a+n(b.starting_balance),0)),l:c.reduce((a,b)=>a+n(b.credit_limit),0)}}function by(l,k='category'){let o={};l.filter(t=>t.amount<0&&t.type==='expense').forEach(t=>o[t[k]||'Other']=(o[t[k]||'Other']||0)+Math.abs(t.amount));return o}function pred(c){let o={};tx().filter(t=>t.category==c&&t.type==='expense').forEach(t=>{let m=t.date.toISOString().slice(0,7);o[m]=(o[m]||0)+Math.abs(t.amount)});let v=Object.values(o).slice(-6);return v.length?v.reduce((a,b)=>a+b,0)/v.length:0}function anoms(){return tx().filter(t=>t.type==='expense'&&Math.abs(t.amount)>500).slice(-6).reverse()}function clear(){charts.forEach(c=>c.destroy&&c.destroy());charts=[]}function chart(id,type,labels,data,target){let e=$(id);if(!e||typeof Chart==='undefined')return;charts.push(new Chart(e,{type,data:{labels,datasets:[{data,backgroundColor:COL,borderColor:'#5AA7F7',borderWidth:3,tension:.35}]},options:{responsive:true,maintainAspectRatio:false,onClick:()=>go(target||url('transactions_url')),plugins:{legend:{display:type!=='bar'}},scales:type==='doughnut'||type==='pie'?{}:{y:{beginAtZero:true},x:{grid:{display:false}}}}}))}function go(u){if(u&&u!='#')window.open(u,'_blank')}function cap(k){go(url('quick_capture_'+k+'_url'))}function range(k){RANGE=k;render()}function printPDF(){window.print()}function rows(items){return ' < table > '+items.map(t=>`<tr><td>${t.date?.toISOString?t.date.toISOString().slice(5,10):''}</td><td>${t.merchant||''}</td><td>${t.category||''}</td><td><b>${fmt(t.amount)}</b></td></tr>`).join('')+'</table > '}let planner='spend';function render(){clear();let l=mtx(),i=inc(l),e=exp(l),s=sav(l),cf=i-e-s,ms=mons(8),cat=by(l),grp=by(l,'group'),cr=credit();$('#name').textContent=(val('user_name')||'there').split(' ')[0];$('#mon').textContent=new Date(cur()+'-01').toLocaleString('en - US',{month:'long',year:'numeric'});$('#status').textContent='Source: '+SOURCE+'; no API; recalculated '+new Date().toLocaleTimeString();$('#nw').textContent=fmt(nw());$('#cf').textContent=fmt(cf);$('#sr').textContent=pct(i?s/i*100:0);let avg=mons(6).map(m=>exp(mtx(m))).reduce((a,b)=>a+b,0)/Math.max(1,mons(6).length);$('#run').textContent=(cash()/(avg||1)).toFixed(1)+' mo';let top=Object.entries(cat).sort((a,b)=>b[1]-a[1])[0]||['None',0],bills=(DATA.Bills||[]).sort((a,b)=>new Date(a.due_date)-new Date(b.due_date)),util=cr.l?cr.u/cr.l*100:0;$('#prior').innerHTML=`<div class="priority-grid"><div class="note"><b>Today</b><br>${bills[0]?.bill||'Review'} ${fmt(n(bills[0]?.amount))}</div><div class="note"><b>This week</b><br>Review ${(DATA.Subscriptions||[]).filter(x=>x.decision==='review').length} subscriptions.</div><div class="note"><b>This month</b><br>Top spend ${top[0]} ${fmt(top[1])}</div><div class="note"><b>Planner insight</b><br>Credit ${pct(util)}; runway ${(cash()/(avg||1)).toFixed(1)} mo.</div><div class="note"><b>Action</b><br>${cf>0?'Route surplus to goals.':'Reduce variable spend.'}</div><div class="note"><b>Watchlist</b><br>${util>30?'Credit above 30 %.':'Credit healthy.'}</div></div>`;$('#advisor').innerHTML=' < b > AI advisor:</b > '+(e>i*.7?'Expense load is high; pause discretionary spend.':'Cash flow profile is healthy.');if(planner==='cash')chart('#planner','line',ms,ms.map(m=>inc(mtx(m))-exp(mtx(m))-sav(mtx(m))),url('transactions_url'));if(planner==='spend')chart('#planner','doughnut',Object.keys(grp),Object.values(grp),url('transactions_url'));if(planner==='goals')chart('#planner','bar',(DATA.Goals||[]).map(g=>g.goal_name),(DATA.Goals||[]).map(g=>n(g.current_amount)/Math.max(1,n(g.target_amount))*100),url('goals_url'));let cards=[['Money Hub',fmt(nw()),url('accounts_url')],['Savings Tracker',fmt((DATA.Goals||[]).reduce((a,b)=>a+n(b.current_amount),0)),url('goals_url')],['Bill Tracker',(DATA.Bills||[]).length+' bills',url('bills_url')],['Debt Tracker',fmt((DATA.Debts||[]).reduce((a,b)=>a+n(b.balance),0)),url('debt_url')],['Expense Tracker',fmt(e),url('transactions_url')],['No Spend Tracker',(DATA.NoSpend||[])[0]?.success_days+' / '+(DATA.NoSpend||[])[0]?.target_days,url('nospend_url')],['Subscriptions Tracker',fmt((DATA.Subscriptions||[]).filter(x=>x.status==='active').reduce((a,b)=>a+n(b.monthly_cost),0)),url('subscriptions_url')],['Wish List',(DATA.Wishlist||[]).length+' wishes',url('wishlist_url')],['Order Tracker',(DATA.Orders||[]).length+' orders',url('orders_url')]];$('#trackers').innerHTML=cards.map(c=>`<div class="card click" onclick="go('${ c[2] } ')"><div class="label">${c[0]}</div><div class="value" style="font-size:18px">${c[1]}</div><div class="mini">Open details</div></div>`).join('');$('#bud').innerHTML=(DATA.Budgets||[]).slice(0,8).map(b=>{let u=cat[b.category]||0,r=u/(n(b.monthly_budget)||1);return`<b>${b.category}</b> <span class="mini">${fmt(u)} / ${fmt(n(b.monthly_budget))}; next ${fmt(pred(b.category))}</span><div class="bar"><div class="fill" style="width:${Math.min(100,r*100)}%;background:${r>.95?'#EF6F7B':r>.8?'#E8BF3F':'#70D69B'}"></div></div>`}).join('');chart('#creditChart','doughnut',['Credit used','Available'],[cr.u,Math.max(0,cr.l-cr.u)],url('transactions_url'));$('#credRows').innerHTML=rows(tx().filter(t=>['Chase Sapphire','Amex Blue Cash'].includes(t.account)&&t.type==='expense').slice(-4));$('#recent').innerHTML=rows(tx().sort((a,b)=>b.date-a.date).slice(0,8));}init();</script>
+</body>
+
+</html>
